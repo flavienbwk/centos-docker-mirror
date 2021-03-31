@@ -104,5 +104,5 @@ gpgcheck=1
 gpgkey=http://localhost:8080/gpg
 ```
 
-:point_right: Please cite my work if you're using it !
+:point_right: Please cite my work if you're using it !  
 :point_right: Feel free to send **pull requests** as well !
