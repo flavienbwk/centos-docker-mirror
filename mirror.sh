@@ -16,6 +16,6 @@ do
 	arch_dest="$dest"
 	mkdir -p "$arch_dest"
 	wget \
-		--mirror -nH --no-check-certificate --cut-dirs=1 --convert-links --adjust-extension --page-requisites --no-parent \
+		--mirror -nH --cut-dirs=1 --convert-links --adjust-extension --page-requisites --no-parent \
 		"$arch_src" -P "$arch_dest"
 done
