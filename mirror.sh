@@ -12,9 +12,9 @@ wget -v "$src/gpg" -P "$dest"
 # Download mirror
 for arch in "x86_64"
 do
-	for folder in "stable"
+	for branch in "stable"
 	do
-		arch_src="$src/$version/$arch/$folder"
+		arch_src="$src/$version/$arch/$branch"
 		arch_dest="$dest"
 		mkdir -p "$arch_dest"
 		wget \
