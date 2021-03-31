@@ -4,9 +4,9 @@ services:
 
     mirror:
         build: .
-        command: /epel-mirror/mirror.sh
+        command: /mirror.sh
         volumes:
-            - "./mirror.sh:/epel-mirror/mirror.sh:ro"
+            - "./mirror.sh:/mirror.sh:ro"
             - "./mirror:/downloads"
 
     server:
@@ -18,4 +18,4 @@ services:
         volumes:
             - "./mirror:/downloads:ro"
         ports:
-            - "10081:80"
+            - "8080:80"
