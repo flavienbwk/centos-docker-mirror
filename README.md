@@ -25,7 +25,7 @@ Mirror for installing Docker on CentOS
 
 1. Check your mirroring succeeded in `./mirror/*` or typing `du -sh ./mirror` to check the volume
 
-    The default configuration should make you download _XX G_
+    The default configuration should make you download _7.9 G_
 
 2. Run the server :
 
